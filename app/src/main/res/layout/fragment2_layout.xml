@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg2">
+
+<Button
+android:id="@+id/button6"
+android:layout_width="212dp"
+android:layout_height="60dp"
+    android:onClick="btn6"
+android:background="@drawable/button2"
+android:text="@string/chemistry"
+android:textColor="#F3F3F6"
+android:textColorHint="@color/white"
+android:textStyle="bold" />
+
+<Button
+android:id="@+id/button7"
+android:layout_width="212dp"
+android:layout_height="60dp"
+android:layout_marginTop="43dp"
+    android:onClick="btn7"
+android:background="@drawable/button2"
+android:text="@string/pds"
+android:textColor="#F3F3F6"
+android:textColorHint="@color/white"
+android:textStyle="bold" />
+
+<Button
+android:id="@+id/button8"
+android:layout_width="212dp"
+android:layout_height="60dp"
+android:layout_marginTop="53dp"
+    android:onClick="btn8"
+android:background="@drawable/button2"
+android:text="@string/maths2"
+android:textColor="#F3F3F6"
+android:textColorHint="@color/white"
+android:textStyle="bold" />
+
+<Button
+android:id="@+id/button9"
+android:layout_width="212dp"
+android:layout_height="60dp"
+android:layout_marginTop="44dp"
+    android:onClick="btn9"
+android:background="@drawable/button2"
+android:text="@string/edcg"
+android:textColor="#F3F3F6"
+android:textColorHint="@color/white"
+android:textStyle="bold" />
+
+<Button
+android:id="@+id/button10"
+android:layout_width="212dp"
+android:layout_height="60dp"
+android:layout_marginTop="46dp"
+    android:onClick="btn10"
+android:background="@drawable/button2"
+android:text="@string/english"
+android:textColor="#F3F3F6"
+android:textColorHint="@color/white"
+android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="212dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="46dp"
+        android:onClick="btn11"
+        android:background="@drawable/button2"
+        android:text="@string/science_of_living_system"
+        android:textColor="#F3F3F6"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

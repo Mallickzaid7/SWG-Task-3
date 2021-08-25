@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bg2"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="212dp"
+        android:onClick="btn1"
+        android:autoLink="web"
+        android:layout_height="60dp"
+        android:background="@drawable/button2"
+        android:text="@string/mechanics"
+        android:textColor="#F3F3F6"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="212dp"
+        android:onClick="btnn2"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btn"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/button2"
+        android:text="@string/physics_of_waves"
+        android:textColor="#F3F3F6"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="212dp"
+        android:onClick="btn3"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btn2"
+        android:layout_marginTop="53dp"
+        android:background="@drawable/button2"
+        android:text="@string/maths"
+        android:textColor="#F3F3F6"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="212dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/button3"
+        android:onClick="btn4"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/button2"
+        android:text="@string/evs"
+        android:textColor="#F3F3F6"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="212dp"
+        android:layout_height="60dp"
+        android:onClick="btn5"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/button2"
+        android:text="@string/electrical_technology"
+        android:textColor="#F3F3F6"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
